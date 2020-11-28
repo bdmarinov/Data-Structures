@@ -21,4 +21,4 @@ You need to support the following operations (and they should be fast):
 +	GetAllFromDepartment(department) – finds all invoices in the provided department. Order them by subtotal descending as first parameter, then by creating date ascending. If there aren’t any return empty collection.
 +	GetAllByCompany(company) – finds all invoices created by the given company. Order them by their number descending. If there aren’t any return empty collection.
 +	ExtendDeadline(dueDate, days) – find all invoices whose due date is equal to the given one and extend their due date by the days given. If there aren’t any throw ArgumentException.
-Feel free to override Equals() and GetHashCode() if necessary.
++ Feel free to override Equals() and GetHashCode() if necessary.
